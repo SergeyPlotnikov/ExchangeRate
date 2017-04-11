@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0b3a562e-5907-44a2-9e9e-a282013e10ca" name="WAMP" url="http://test">
+        <fileTransfer port="0" mountedRoot="C:\wamp64\bin\apache\apache2.4.23\bin" accessType="MOUNT" />
+      </webServer>
+      <webServer id="d12f6cba-3f91-43f9-99d0-5011d563e301" name="updating" url="http://natalie-hairdresser.kl.com.ua">
+        <fileTransfer host="natalie-hairdresser.kl.com.ua" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
